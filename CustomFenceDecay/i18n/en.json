@@ -1,6 +1,6 @@
 {
   // Options
-  "IdenticalValue.Name": "Same decay for all fences types ?",
+  "IdenticalValue.Name": "Same decay for all ?",
   "IdenticalValue.Tooltip": "If checked, all fences will have the same decaying speed",
   "FenceDecaySpeedInPercent.Name": "Fences decaying speed",
   "FenceDecaySpeedInPercent.Tooltip": "Decaying speed of all fences in percent. Example: 50% => Decaying default speed divided by 2.",

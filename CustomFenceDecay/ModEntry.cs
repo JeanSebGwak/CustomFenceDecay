@@ -75,7 +75,9 @@ namespace CustomFenceDecay
                 name: () => I18n.Get("FenceDecaySpeedInPercent.Name"),
                 tooltip: () => I18n.Get("FenceDecaySpeedInPercent.Tooltip"),
                 getValue: () => Config.FenceDecaySpeedInPercent,
-                setValue: value => Config.FenceDecaySpeedInPercent = value
+                setValue: value => Config.FenceDecaySpeedInPercent = value,
+                min: 0, 
+                max: 100
             );
 
             configMenu.AddSectionTitle(
@@ -93,7 +95,9 @@ namespace CustomFenceDecay
                 name: () => I18n.Get("WoodFenceDecaySpeedInPercent.Name"),
                 tooltip: () => I18n.Get("WoodFenceDecaySpeedInPercent.Tooltip"),
                 getValue: () => Config.WoodFenceDecaySpeedInPercent,
-                setValue: value => Config.WoodFenceDecaySpeedInPercent = value
+                setValue: value => Config.WoodFenceDecaySpeedInPercent = value,
+                min: 0,
+                max: 100
             );
 
             configMenu.AddNumberOption(
@@ -101,7 +105,9 @@ namespace CustomFenceDecay
                 name: () => I18n.Get("StoneFenceDecaySpeedInPercent.Name"),
                 tooltip: () => I18n.Get("StoneFenceDecaySpeedInPercent.Tooltip"),
                 getValue: () => Config.StoneFenceDecaySpeedInPercent,
-                setValue: value => Config.StoneFenceDecaySpeedInPercent = value
+                setValue: value => Config.StoneFenceDecaySpeedInPercent = value,
+                min: 0,
+                max: 100
             );
 
             configMenu.AddNumberOption(
@@ -109,7 +115,9 @@ namespace CustomFenceDecay
                 name: () => I18n.Get("IronFenceDecaySpeedInPercent.Name"),
                 tooltip: () => I18n.Get("IronFenceDecaySpeedInPercent.Tooltip"),
                 getValue: () => Config.IronFenceDecaySpeedInPercent,
-                setValue: value => Config.IronFenceDecaySpeedInPercent = value
+                setValue: value => Config.IronFenceDecaySpeedInPercent = value,
+                min: 0,
+                max: 100
             );
 
             configMenu.AddNumberOption(
@@ -117,7 +125,9 @@ namespace CustomFenceDecay
                 name: () => I18n.Get("HardwoodFenceDecaySpeedInPercent.Name"),
                 tooltip: () => I18n.Get("HardwoodFenceDecaySpeedInPercent.Tooltip"),
                 getValue: () => Config.HardwoodFenceDecaySpeedInPercent,
-                setValue: value => Config.HardwoodFenceDecaySpeedInPercent = value
+                setValue: value => Config.HardwoodFenceDecaySpeedInPercent = value,
+                min: 0,
+                max: 100
             );
         }
 
